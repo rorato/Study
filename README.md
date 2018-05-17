@@ -1,0 +1,1 @@
+This is a repo of random javascript code and websites I am working through while learning.
