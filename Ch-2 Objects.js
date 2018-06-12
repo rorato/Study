@@ -22,7 +22,7 @@ function Object2(){
 
     var b = "Bullsnit";
 
-    console.log(obj[a]);
+    console.log(obj['a']);
     console.log(obj[b]);
     console.log(obj['b']);
 }
