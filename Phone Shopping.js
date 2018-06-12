@@ -15,4 +15,5 @@ for (i = bankBalance; i >= PHONE_PRICE; i = i - PHONE_PRICE){
     accessoriesBought++;
 }
 alert("You bought a total of " + phonesBought + "!");
-alert("Your total price including taxes is: " + Total((phonesBought * PHONE_PRICE) + (accessoriesBought * ACCESSORY_PRICE)));
+//Line below shows in a browser prompt the total price including taxes. This uses the function Total as well as the function toFixed to round the decimals for proper formatting.
+alert("Your total price including taxes is: " + Total((phonesBought * PHONE_PRICE) + (accessoriesBought * ACCESSORY_PRICE))); 
