@@ -20,7 +20,7 @@ function Object2(){
         b: 1337
     };
 
-    var b = "Bullsnit";
+    var b = "a";
 
     console.log(obj['a']);
     console.log(obj[b]);
