@@ -55,7 +55,7 @@ function FunObject(){
         if(obj.hasOwnProperty(answerPrompt)){
             alert(obj[answerPrompt]);
             validProperty = true;
-        } else alert("Not a property, try again");
+        } else alert("Not a proper  ty, try again");
 
     }
     
