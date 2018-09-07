@@ -22,3 +22,4 @@ function Mob(name, health, attk, defense) {
 
 var jack = new Mob("Jack", 1243, 300, 300);
 var jordan = new Mob("Jordan", 600, 500, 150);
+jack.stats();
