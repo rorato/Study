@@ -33,4 +33,28 @@ function preFixObj() {
     console.log(obj.Taintman);
     console.log(obj.Taintgirl);
 }
-preFixObj();
+
+function myGetter() {
+
+var myObj = {
+	//This is define a getter property for myObj using literal syntax
+	get a() {
+		return 2;
+    }
+};
+
+Object.defineProperty(
+	//This is to define an additional property for myObj using the Object built in functions
+	myObj,	//	Target
+	"b",	//	Name of property
+    {		
+		get: function(){return this.a*2},	//	Define the get property descriptor for the property 'b'
+		
+		enumerable: true	//	This is the property descriptor that allows the property to be accessed.
+    }
+);	//	end of defining property
+
+console.log(myObj.a);	//	=	2
+console.log(myObj.b);	//	=	4
+}
+myGetter();
